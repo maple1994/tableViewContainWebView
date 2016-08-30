@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51E5AA61D74342C0067F0CE /* WebViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F51E5AA51D74342C0067F0CE /* WebViewTableViewCell.m */; };
+		F552D0C61D756659004B2068 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F552D0C51D756658004B2068 /* CellModel.m */; };
 		F5EC974C1D742CC1000E9317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EC974B1D742CC1000E9317 /* main.m */; };
 		F5EC974F1D742CC1000E9317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EC974E1D742CC1000E9317 /* AppDelegate.m */; };
 		F5EC97521D742CC1000E9317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EC97511D742CC1000E9317 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F51E5AA41D74342C0067F0CE /* WebViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTableViewCell.h; sourceTree = "<group>"; };
+		F51E5AA51D74342C0067F0CE /* WebViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTableViewCell.m; sourceTree = "<group>"; };
+		F552D0C41D756658004B2068 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		F552D0C51D756658004B2068 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		F5EC97471D742CC1000E9317 /* tableViewContainWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewContainWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EC974B1D742CC1000E9317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5EC974D1D742CC1000E9317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				F5EC97581D742CC1000E9317 /* LaunchScreen.storyboard */,
 				F5EC975B1D742CC1000E9317 /* Info.plist */,
 				F5EC974A1D742CC1000E9317 /* Supporting Files */,
+				F51E5AA41D74342C0067F0CE /* WebViewTableViewCell.h */,
+				F51E5AA51D74342C0067F0CE /* WebViewTableViewCell.m */,
+				F552D0C41D756658004B2068 /* CellModel.h */,
+				F552D0C51D756658004B2068 /* CellModel.m */,
 			);
 			path = tableViewContainWebView;
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EC97521D742CC1000E9317 /* ViewController.m in Sources */,
+				F51E5AA61D74342C0067F0CE /* WebViewTableViewCell.m in Sources */,
 				F5EC974F1D742CC1000E9317 /* AppDelegate.m in Sources */,
+				F552D0C61D756659004B2068 /* CellModel.m in Sources */,
 				F5EC974C1D742CC1000E9317 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				F5EC97761D742CC1000E9317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5EC97771D742CC1000E9317 /* Build configuration list for PBXNativeTarget "tableViewContainWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				F5EC97791D742CC1000E9317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5EC977A1D742CC1000E9317 /* Build configuration list for PBXNativeTarget "tableViewContainWebViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				F5EC977C1D742CC1000E9317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

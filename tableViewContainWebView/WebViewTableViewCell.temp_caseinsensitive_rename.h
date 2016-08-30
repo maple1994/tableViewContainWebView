@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  webViewTableViewCell.h
 //  tableViewContainWebView
 //
 //  Created by maple on 16/8/29.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface WebViewTableViewCell : UITableViewCell
 
+@property (nonatomic, copy) NSString *html;
 
 @end
-
